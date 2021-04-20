@@ -1,0 +1,28 @@
+{
+  "name": "turbotest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbobtba/turbotest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbobtba/turbotest/issues"
+  },
+  "homepage": "https://github.com/webbobtba/turbotest#readme",
+  "dependencies": {
+    "@hotwired/turbo": "^7.0.0-beta.5",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "posthtml-include": "^1.7.0",
+    "snowpack": "^3.3.3",
+    "snowpack-plugin-posthtml": "^0.1.0"
+  }
+}
