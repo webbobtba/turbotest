@@ -19,13 +19,7 @@ cd turbotest
 npm install
 ```
 
-4. Start parcel serve:
+4. Start snowpack:
 ```js
 npm start
 ```
-
-## Ready to publish?
-```js
-npm run build
-```
-Your site will be built for production.
