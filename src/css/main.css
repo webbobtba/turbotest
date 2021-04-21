@@ -36,11 +36,10 @@ nav {
 .navlink {
     display: block;
     padding: 0.5em 1em;
-
-    &--current {
-        background-color: black;
-        color: white
-    }
+}
+.navlink--current {
+    background-color: black;
+    color: white
 }
 
 main {
