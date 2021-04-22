@@ -8,7 +8,7 @@ module.exports = {
   },
   buildOptions: {
     baseUrl: '/turbotest',
-    out: './docs',
+    out: './build',
   },
   plugins: [
     ['snowpack-plugin-posthtml', {
