@@ -6,6 +6,10 @@ module.exports = {
   mount: {
     src: { url: '/', static: true },
   },
+  buildOptions: {
+    baseUrl: '/turbotest',
+    out: './docs',
+  },
   plugins: [
     ['snowpack-plugin-posthtml', {
       root: './src/',
